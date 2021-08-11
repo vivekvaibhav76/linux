@@ -9,4 +9,4 @@ In Linux, there are 6 distinct stages in the typical booting process.
 5. Init
 6. Runlevel programs
 
-1. BIOS
+1. BIOS:
