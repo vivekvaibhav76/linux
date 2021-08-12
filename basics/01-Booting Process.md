@@ -55,9 +55,8 @@ MBR is a 512 byte code which is located in 1st sector of hard-drive which is /de
    
   <h3>We can find BOOT process logs in /var/lib/boot.log</h3> 
   <h3>journalctl command to view the current boot log messages: </h3>
-     
     
-     ```sh
+     ```
      journalctl -b 
      ```
  
