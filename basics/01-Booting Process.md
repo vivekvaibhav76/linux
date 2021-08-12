@@ -31,7 +31,7 @@ MBR is a 512 byte code which is located in 1st sector of hard-drive which is /de
     The kernel is the core of operating system. kernel is going to mount to file system which is which is mentioned the grub.conf file.
   Then the kernel executes the /sbin/init program which is the program to be executed in the system. which has the PID of 1. The kernel establishes temporary root file system using Init RAM Disk(initrd) until the file system is mounted.
  
- <h1>5. Init:</h1>
+ 5. Init:
     This is the point where system executes runlevel programs. Its going to look for /etc/inittab to decide run level.
   Available Run Levels  are:
   0 - Halt 
