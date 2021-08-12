@@ -53,7 +53,10 @@ MBR is a 512 byte code which is located in 1st sector of hard-drive which is /de
   Each program has its own directory located at /etc/rc[1-6].d/ depends on the distribution.
   In /etc/rc*.d/ directory you will see some programs start with S and K. Programs start with S are used for startup and program starting with K are used during shutdown and K symbolises kill.
    
-  <h3>We can find BOOT process logs in /var/lib/boot.log</h3> 
+  <h3>We can find BOOT process logs in:</h3> 
+   
+     /var/lib/boot.log
+   
   <h3>journalctl command to view the current boot log messages: </h3>
     
     
