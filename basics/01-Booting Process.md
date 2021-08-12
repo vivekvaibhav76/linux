@@ -42,7 +42,7 @@ MBR is a 512 byte code which is located in 1st sector of hard-drive which is /de
   5 - X11
   6 - reboot
    
- 6. Run Level: 
+ <h1>6. Run Level:</h1> 
    Depending upon the linux distribution you have, you will see different services getting started like "starting sshd .... ok". These are known as run level programs. 
  
    
