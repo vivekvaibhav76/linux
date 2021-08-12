@@ -50,6 +50,7 @@ MBR is a 512 byte code which is located in 1st sector of hard-drive which is /de
 
 
   Each program has its own directory located at /etc/rc[1-6].d/ depends on the distribution.
-   /etc/rc0
+  In /etc/rc*.d/ directory you will see some programs start with S and K. Programs start with S are used for startup and program starting with K are used to during shutdown. K for kill.
+   
    
    
