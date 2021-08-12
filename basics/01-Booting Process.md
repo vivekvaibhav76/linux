@@ -6,7 +6,7 @@ In Linux, there are 6 distinct stages in the typical booting process.
 2. MBR
 3. GRUB
 4. Kernel
-5. Init / Systemd 
+5. Systemd 
 6. Runlevel programs
 
 ![image](https://user-images.githubusercontent.com/50689175/129009723-ea62a1e8-5362-4729-828f-39c22bdab883.png)
@@ -31,16 +31,8 @@ MBR is a 512 byte code which is located in 1st sector of hard-drive which is /de
     The kernel is the core of operating system. kernel will mount the file system which is mentioned in the grub.conf file.
   Then the kernel executes the /sbin/init program, which has the PID of 1. The kernel establishes temporary root file system using Init RAM Disk(initrd) until the file system is mounted.
  
- <h1>5. Init:</h1>
-    This is the point where system executes runlevel programs. Its going to look for /etc/inittab to decide run level.
-  Available Run Levels  are:
-  0 - Halt 
-  1 - Single User Mode
-  2 - Multiuser, without NFS 
-  3 - Multiuser mode
-  4 - unused
-  5 - X11
-  6 - reboot
+ <h1>5. Systemd:</h1>
+    Systemd is the mother of all process. You can find Systemd in /etc/systemd/system/default.target file to determine the state of the Linux system. Systemd refers to all packages,utilities and libraries around deamon. It has more features compared to init. The first process that starts at boot is systemd and is assigned PID=1.
    
  <h1>6. Run Level:</h1> 
    A run level is a state of init and the whole system that defines what system services are operating. Run levels are identified by numbers.
