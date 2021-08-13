@@ -4,5 +4,29 @@ You can create a directory by using:
 ```sh
 mkdir
 ```
+<h3> Linux hierarchy structure </h3>
 
 
+<h3>/</h3>
+    "Root" the top of the file system hierarchy.
+  
+<h3>/bin</h3>
+    Binaries and executable programs
+   
+<h3>/etc</h3>
+    System config files
+    
+<h3>/home</h3>
+    Home directories
+    
+<h3>/opt</h3>
+    Third party software
+
+<h3>/tmp</h3>
+    Temporary space, cleared on reboot
+   
+<h3>/usr</h3>
+    User related directories
+    
+<h3>/var</h3>
+    Log files and other variable data
