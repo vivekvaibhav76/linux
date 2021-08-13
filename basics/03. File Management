@@ -1,1 +1,6 @@
-
+<h1>03. File Management</h1>
+The Directories is the one which stores file in the system. Directories is equal to folder in the Windows system.
+You can create a directory by using:
+  '''
+  mkdir
+  '''
