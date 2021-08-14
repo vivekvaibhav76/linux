@@ -55,3 +55,9 @@ MBR is a 512 byte code which is located in 1st sector of hard-drive which is /de
      journalctl -b 
    
  
+   To see bootup messages use:
+   
+   ```sh
+   dmesg
+   ```
+   
