@@ -3,9 +3,11 @@
 <h3>File type</h3>
 Lets consider you have a file in your system and you want to know its permission, owner, group, file size, date of creation, etc.
 Execute the command ls -l
+
 ```sh
 ls -l
 ```
+
 You'll get to know the file type.
 
 Symbol      Type
@@ -23,20 +25,16 @@ Output will be like:
 
 -rw-rw-r--  1   <user>   <group>  <filesize>  <Created Date>  <Created Time>  <Name of File>
   
+![image](https://user-images.githubusercontent.com/50689175/129441824-45ee9af0-2028-41be-b073-2fa4d454b8ae.png)
   
-  Symbol          Permission
- 
-  r               Read
-  w               Write
-  x               Execute
   
 <h3>Permissions- File vs Directories</h3>
   
-  Permission          File                                        Directory
-  Read(r)         Allow files to read                Allow file names in the directory to be read
+![image](https://user-images.githubusercontent.com/50689175/129442435-4baf28b2-b66a-4745-84fd-4186bbaad452.png)
+
+      
+<h3>Permission Categories</h3>
   
-  Write(w)        Allows a files to modified         Allow entries to be modified within the directory
-  
-  Execute(x)      Allows the excution of a file      Allows access to contents and metadata for entries
-  
+  ![image](https://user-images.githubusercontent.com/50689175/129442005-2b887e0f-4fcc-4877-9938-b1bf26dec989.png)
+
   
