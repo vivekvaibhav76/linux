@@ -6,3 +6,17 @@ There are 3 types od Input and output redirection
 3. Standard Error
 
 ![image](https://user-images.githubusercontent.com/50689175/129438788-42bf2651-2a1a-4b74-b36e-5f48081b1576.png)
+
+
+
+
+<h1>Redirection</h1>
+<h3> > </h3>
+    Redirects standard output to a file. Overwrites the existing contents in the file.
+ 
+<h3> >> </h3>
+    Redirects standard output to a file. Appends to the existing contents.
+    
+<h3> < </h3>
+    Redirects input from a file.
+ 
