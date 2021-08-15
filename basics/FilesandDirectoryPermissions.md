@@ -1,4 +1,4 @@
-<h1>Files and Directory Permissions Explained</h1>
+<h1>Files and Directory Permissions</h1>
 
 <h3>File type</h3>
 Lets consider you have a file in your system and you want to know its permission, owner, group, file size, date of creation, etc.
