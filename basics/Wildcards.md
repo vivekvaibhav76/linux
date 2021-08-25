@@ -30,7 +30,6 @@ eg: [!aloe]
 [-] : Use hyphen to create a range between the characters.
 
 eg: [a-c]* : Matches all the files that start with a,b or c.
-
     [1-3]* : Matches all the files that start with 1,2 or 3.
     
 
